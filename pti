@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nutrição Saudável - Dra. Maria Silva</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Nutrição Saudável</h1>
+    <nav>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#beneficios">Benefícios</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="sobre">
+    <h2>Sobre</h2>
+    <p>Olá, sou a Dra. Maria Silva, nutricionista especializada em promover uma alimentação saudável e equilibrada para uma vida melhor.</p>
+  </section>
+
+  <section id="servicos">
+    <h2>Serviços</h2>
+    <ul>
+      <li>Avaliação nutricional</li>
+      <li>Elaboração de planos alimentares personalizados</li>
+      <li>Acompanhamento nutricional</li>
+      <li>Orientação para perda de peso</li>
+      <li>Reeducação alimentar</li>
+    </ul>
+  </section>
+
+  <section id="beneficios">
+    <h2>Benefícios</h2>
+    <p>Com uma alimentação balanceada e adequada às suas necessidades, você pode desfrutar dos seguintes benefícios:</p>
+    <ul>
+      <li>Melhoria na saúde geral</li>
+      <li>Aumento de energia</li>
+      <li>Controle do peso</li>
+      <li>Fortalecimento do sistema imunológico</li>
+      <li>Melhora na disposição</li>
+    </ul>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Entre em contato para agendar uma consulta ou tirar dúvidas:</p>
+    <form action="#" method="post">
+      <input type="text" name="nome" placeholder="Seu Nome" required>
+      <input type="email" name="email" placeholder="Seu Email" required>
+      <textarea name="mensagem" placeholder="Sua Mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2024 Nutrição Saudável - Dra. Maria Silva. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
